@@ -48,11 +48,11 @@ def player_move() -> None:
     while not done:  # While the move has not been made
         try:
             row = int(input("Enter a row [1-3] ")) - 1  # Step 2a - ask for the move
-            if row > 3 or row < 0:
+            if row >= 3 or row < 0:
                 print('Enter a number from 1-3.')
                 continue
             column = int(input("Enter a column [1-3] ")) - 1  # Step 2a  - ask for the move
-            if column > 3 or column < 0:
+            if column >= 3 or column < 0:
                 print('Enter a number from 1-3.')
                 continue
             if cell_occupied(row, column):
