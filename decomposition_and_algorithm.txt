@@ -1,0 +1,32 @@
+# Main python file
+
+# Decomposed tictactoe game
+# The player
+# The "AI"
+# The board
+# Making moves [updating the board]
+# Validating inputs
+
+# Steps [ALGORITHM]
+# 1. Display the board as a 3x3 board, all empty.
+# 2. Ask X [first player] to type a number [1-9]
+# 2a. Validate the move
+# 2b. Move not valid --> Step 2
+# 2b. Move valid --> Step 3
+# 3a. Make the move on the board
+# 3b. Win/Draw/Impossible? --> END GAME
+# 4a. Computer selects a random move on the board
+# 4b. Validate the move
+# 4b. Valid --> Step 6
+# 4b. Not Valid --> 5a
+# 4c. Win/Draw/Impossible? --> END GAME
+# Repeat steps 2-4 until an outcome occurs
+
+
+# DECOMPOSITION
+# DRAWING BOARD
+# HUMAN PLAYER
+# COMPUTER
+# WIN CONDITIONS
+# PRINTING BOARD
+# 
